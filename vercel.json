@@ -20,6 +20,7 @@
     "env": {
         "APP_ENV": "production",
         "APP_DEBUG": "false",
+        "APP_KEY": "base64:ePBmxdyNJirL2p//ewXNNAHWvHYl0DOi7y3Op2TX+2U=",
         "APP_URL": "https://rkhafarid-portofolio.vercel.app",
         "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE": "/tmp/events.php",

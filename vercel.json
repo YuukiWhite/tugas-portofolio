@@ -8,13 +8,19 @@
     },
     "routes": [
         {
+            "src":"/images/(.*)",
+            "dest": "public/images"
+        },
+        {
             "src": "/(.*)",
             "dest": "/api/index.php"
         }
     ],
+    "public": true,
+    "outputDirectory": "public",
     "env": {
         "APP_ENV": "production",
-        "APP_DEBUG": "false",
+        "APP_DEBUG": "true",
         "APP_URL": "https://rkhafarid-portofolio.vercel.app",
         "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE": "/tmp/events.php",
@@ -24,8 +30,7 @@
         "VIEW_COMPILED_PATH": "/tmp",
         "CACHE_DRIVER": "array",
         "LOG_CHANNEL": "stderr",
-        "SESSION_DRIVER": "cookie",
-        "SSR_TEMP_PATH": "/tmp/ssr",
-        "NODE_PATH": "node"
+        "SESSION_DRIVER": "cookie"
     }
+    
 }

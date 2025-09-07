@@ -92,7 +92,7 @@
                         <a href="#" class="flex-1 bg-purple-600 hover:bg-purple-700 text-white text-sm py-2 px-4 rounded-lg transition-colors text-center">
                             View Demo
                         </a>
-                        <a href="#" class="flex-1 border border-gray-600 hover:border-purple-400 text-gray-300 hover:text-purple-400 text-sm py-2 px-4 rounded-lg transition-colors text-center">
+                        <a href="https://github.com/YuukiWhite/tugas-portofolio" class="flex-1 border border-gray-600 hover:border-purple-400 text-gray-300 hover:text-purple-400 text-sm py-2 px-4 rounded-lg transition-colors text-center">
                             Source Code
                         </a>
                     </div>
